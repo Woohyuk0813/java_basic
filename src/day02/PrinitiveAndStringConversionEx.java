@@ -1,6 +1,4 @@
-package day01;
-
-import java.sql.SQLOutput;
+package day02;
 
 public class PrinitiveAndStringConversionEx {
     public static void main(String[] args) {

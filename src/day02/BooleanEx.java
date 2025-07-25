@@ -1,4 +1,4 @@
-package day01;
+package day02;
 
 public class BooleanEx {
     public static void main(String[] args) {
