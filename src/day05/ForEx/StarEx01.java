@@ -1,4 +1,4 @@
-package day05;
+package day05.ForEx;
 
 public class StarEx01 {
     public static void main(String[] args) {
