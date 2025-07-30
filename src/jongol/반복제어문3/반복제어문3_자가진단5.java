@@ -8,5 +8,6 @@ public class 반복제어문3_자가진단5 {
         int n = sc.nextInt();
 
 
+
     }
 }
