@@ -6,11 +6,12 @@ public class 반복제어문1_자가진단2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-        int sum = 1;
+        int sum = 0;
 
-        while(num<=100){
-            sum = sum + num;
+        for(int i = 1; i<=num; i++){
+            sum = i+sum;
+
         }
-        System.out.print(sum);
+        System.out.printf("%d",sum);
     }
 }
