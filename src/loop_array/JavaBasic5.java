@@ -6,6 +6,7 @@ public class JavaBasic5 {
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
+           //출력 후 줄바꿈
             System.out.println();
         }
     }
