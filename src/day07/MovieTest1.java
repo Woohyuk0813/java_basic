@@ -1,6 +1,6 @@
 package day07;
 
-public class MovieTest {
+public class MovieTest1 {
 
     public static void main(String[] args) {
 
