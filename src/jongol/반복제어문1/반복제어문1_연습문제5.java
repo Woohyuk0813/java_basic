@@ -7,7 +7,7 @@ public class 반복제어문1_연습문제5 {
         Scanner sc = new Scanner(System.in);
         int sum = 0;
         int count = 0;
-        double avg = 0;
+        double avg;
 
         while (true) {
             int a = sc.nextInt();
