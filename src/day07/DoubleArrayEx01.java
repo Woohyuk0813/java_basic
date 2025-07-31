@@ -16,7 +16,7 @@ public class DoubleArrayEx01 {
         scores[2][0] = 100;
         scores[2][1] = 90;
         scores[2][2] = 90;
-
+        //과목이름 저장배열
         String[] a = {"국어", "영어", "수학"};
 
 
@@ -38,8 +38,6 @@ public class DoubleArrayEx01 {
 
         }
     }
-
-
 }
 
 
