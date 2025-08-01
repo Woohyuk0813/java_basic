@@ -1,5 +1,6 @@
 package jongol.문자열1;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 import static java.lang.Character.isDigit;
@@ -9,24 +10,17 @@ public class 문자열1_연습문제9 {
     static Scanner in = new Scanner(System.in);
 
     public static void main(String[] args) {
-        while (true) {
-            String str = in.nextLine();
-            char ch = str.charAt(0);
+        String inputString = in.nextLine();
 
-            if ((int) ch >= 123 || (int) ch <= 47) {
-                System.out.println("영문, 숫자 이외의 문자입니다.");
-                break;
-            }
+        int len0fStr = inputString.length();
 
-
-            if (isDigit(ch)) {
-                System.out.println("숫자문자입니다.");
-            } else {
-
-                System.out.println(isUpperCase(ch) ? "대문자입니다." : "소문자입니다.");
-            }
+        for (int i = 1; i <= len0fStr; i++) {
+            System.out.println(inputString.substring(i) + inputString.substring(0,i));
 
         }
+
+
+
     }
 }
 

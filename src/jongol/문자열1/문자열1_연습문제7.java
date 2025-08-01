@@ -1,32 +1,23 @@
 package jongol.문자열1;
 
+
 import java.util.Scanner;
 
-import static java.lang.Character.isDigit;
-import static java.lang.Character.isUpperCase;
+import static java.lang.Character.*;
 
 public class 문자열1_연습문제7 {
     static Scanner in = new Scanner(System.in);
 
     public static void main(String[] args) {
-        while (true) {
-            String str = in.nextLine();
-            char ch = str.charAt(0);
 
-            if ((int) ch >= 123 || (int) ch <= 47) {
-                System.out.println("영문, 숫자 이외의 문자입니다.");
-                break;
-            }
+        String tmpStr = in.nextLine();
+        int lenOfStr = tmpStr.length();
 
-
-            if (isDigit(ch)) {
-                System.out.println("숫자문자입니다.");
-            } else {
-
-                System.out.println(isUpperCase(ch) ? "대문자입니다." : "소문자입니다.");
-            }
+        for (int i = 0; i < lenOfStr; i++) {
+            System.out.print(isUpperCase(tmpStr.charAt(i))? toLowerCase(tmpStr.charAt(i)):toUpperCase(tmpStr.charAt(i)));
 
         }
+
     }
 }
 
