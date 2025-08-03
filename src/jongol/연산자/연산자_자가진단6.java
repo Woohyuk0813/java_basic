@@ -1,7 +1,6 @@
-package jongol.연산자;
+package 연산자;
 
 import java.util.Scanner;
-
 public class 연산자_자가진단6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

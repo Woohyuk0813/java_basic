@@ -1,4 +1,4 @@
-package jongol.연산자;
+package 연산자;
 
 import java.util.Scanner;
 

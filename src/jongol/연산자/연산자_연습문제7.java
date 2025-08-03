@@ -1,6 +1,4 @@
-package jongol.연산자;
-
-import java.util.Scanner;
+package 연산자;
 
 public class 연산자_연습문제7 {
     public static void main(String[] args) {
@@ -18,4 +16,3 @@ public class 연산자_연습문제7 {
 
     }
 }
-
