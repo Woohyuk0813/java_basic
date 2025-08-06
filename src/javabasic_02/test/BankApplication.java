@@ -1,4 +1,4 @@
-package javabasic_02.day10;
+package javabasic_02.test;
 
 import java.util.Scanner;
 
