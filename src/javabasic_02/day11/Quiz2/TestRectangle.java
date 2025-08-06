@@ -37,7 +37,6 @@ public class TestRectangle {
         } else {
             System.out.println("둘레는 같습니다.");
         }
-        System.out.println();
     }
 
 }
