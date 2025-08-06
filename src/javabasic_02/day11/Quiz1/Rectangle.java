@@ -1,4 +1,4 @@
-package javabasic_02.day11.Qiuz1;
+package javabasic_02.day11.Quiz1;
 
 public class Rectangle {
     private int width;
