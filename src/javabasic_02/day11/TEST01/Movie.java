@@ -1,11 +1,14 @@
 package javabasic_02.day11.TEST01;
 
 public class Movie {
+    //title 영화명
+    //genre 장르
+
     private String title;
     private String genre;
 
     public String getTitle() {
-        return title;
+        return this.title;
     }
 
     public void setTitle(String title) {
@@ -13,14 +16,14 @@ public class Movie {
     }
 
     public String getGenre() {
-        return genre;
+        return this.genre;
     }
 
     public void setGenre(String genre) {
         this.genre = genre;
     }
     public void play() {
-        System.out.println(title + "(" + genre + ")" + " 상영중입니다.");
+        System.out.println(this.title + "(" + this.genre + ")" + " 상영중입니다.");
     }
 }
 

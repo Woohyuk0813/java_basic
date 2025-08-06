@@ -1,3 +1,4 @@
+/*
 package javabasic_02.day11.TEST03;
 
 public class prob {
@@ -29,3 +30,4 @@ public class prob {
         this.baseSalary = baseSalary;
     }
 }
+*/
