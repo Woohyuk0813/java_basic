@@ -1,4 +1,4 @@
-package javabasic_03.day13.two;
+package javabasic_03.day13.b;
 
 public class CarFactory extends Factory implements IWorkingTogether {
 

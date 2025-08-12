@@ -1,4 +1,4 @@
-package javabasic_03.day13.one;
+package javabasic_03.day13.a;
 
 public class AnimalTest {
 
