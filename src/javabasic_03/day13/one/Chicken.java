@@ -1,4 +1,4 @@
-package javabasic_03;
+package javabasic_03.day13.one;
 
 public class Chicken extends Animal implements Cheatable {
 

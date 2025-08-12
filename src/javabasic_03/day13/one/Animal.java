@@ -1,4 +1,4 @@
-package javabasic_03;
+package javabasic_03.day13.one;
 
 public abstract class Animal {
     int speed;
