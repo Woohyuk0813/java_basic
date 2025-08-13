@@ -1,6 +1,6 @@
 package javabasic_03.day13.e;
 
-public class CardPayment extends Payment {
+class CardPayment extends Payment {
     private String cardNumber;
     private String cardPassword;
     private int monthlyInstallment;
@@ -15,20 +15,20 @@ public class CardPayment extends Payment {
 
     @Override
     public void pay() throws PayException {
-        if (productPrice <= 0 || cardNumber == null || monthlyInstallment <= 0) {
-            throw new PayException("결제 정보가 올바르지 않습니다.");
+        if (productPrice <= 0 || monthlyInstallment < 0) {
+            throw new PayException("가격이나 할부개월수가 잘못되었습니다.");
         }
-        System.out.println(shopName + "에서 " + productName + "를 "
-                + productPrice + "원 결제합니다. (카드 할부: " + monthlyInstallment + "개월)");
+        System.out.println("(신용카드) 결제되었습니다.");
+        System.out.println(toString());
     }
 
     @Override
     public String toString() {
-        return "CardPayment [shopName=" + shopName
-                + ", productName=" + productName
-                + ", productPrice=" + productPrice
-                + ", cardNumber=" + cardNumber
-                + ", cardPassword=" + cardPassword
-                + ", monthlyInstallment=" + monthlyInstallment + "]";
+        return "[ 결제 정보 ]\n" +
+                "상점명 : " + shopName + "\n" +
+                "상품명 : " + productName + "\n" +
+                "상품가격 : " + productPrice + "\n" +
+                "카드번호 : " + cardNumber + "\n" +
+                "할부개월수 : " + monthlyInstallment;
     }
 }
