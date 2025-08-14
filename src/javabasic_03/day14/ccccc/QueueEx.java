@@ -14,6 +14,12 @@ public class QueueEx {
         queue_int.add(3);
         queue_int.add(4);
 
-        System.out.println(queue_int.offer(2));
+        //System.out.println(queue_int.offer(2));
+        System.out.println(queue_int.remove(2));
+        System.out.println(queue_int);
+        queue_int.poll();
+        System.out.println(queue_int);
+        queue_int.poll();
+        System.out.println(queue_int);
     }
 }
