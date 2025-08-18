@@ -3,11 +3,11 @@ package BookMarket_01;
 import java.util.Scanner;
 
 public class Welcome {
-    static final int NUM_BOOK = 3;
-    static final int NUM_ITEM = 7;
-    static CartItem[] mCartItem = new CartItem[NUM_BOOK];
-    static int mCartCount = 0;
-    static User mUser;
+    static final int NUM_BOOK = 3; //책 권수
+    static final int NUM_ITEM = 7; // 1권 당 세부정보
+    static CartItem[] mCartItem = new CartItem[NUM_BOOK]; // 장바구니
+    static int mCartCount = 0; // 장바구니에 담긴 책 수 체크
+    static User mUser; // 사용자 정보 저장소
 
     public static void main(String[] args) {
         String[][] mBook = new String[NUM_BOOK][NUM_ITEM];
@@ -18,7 +18,6 @@ public class Welcome {
 
         System.out.print("연락처를 입력하세요 : ");
         int userMobile = input.nextInt();
-
 
         mUser = new User(userName, userMobile);
 
@@ -95,14 +94,14 @@ public class Welcome {
 
     public static void menuIntroduction() {
         System.out.println("******************************");
-        System.out.println(" 1. 고객 정보 확인하기 \t4. 바구니에 항목 추가하기");
+        System.out.println(" 1. 고객 정보 확인하기 \t\t4. 바구니에 항목 추가하기");
         System.out.println(" 2. 장바구니 상품 목록 보기 \t5. 장바구니의 항목 수량 줄이기");
-        System.out.println(" 3. 장바구니 비우기 \t6. 장바구니의 항목 삭제하기");
-        System.out.println(" 7. 영수증 표시하기 \t8. 종료");
+        System.out.println(" 3. 장바구니 비우기 \t\t6. 장바구니의 항목 삭제하기");
+        System.out.println(" 7. 영수증 표시하기 \t\t8. 종료");
         System.out.println(" 9. 관리자 로그인");
         System.out.println("******************************");
     }
-
+// 고객정보 확인하기
     public static void menuGuestInfo(String name, int mobile) {
         System.out.println("현재 고객 정보 : ");
         // System.out.println("이름 " + name + " 연락처 " + mobile);
@@ -110,7 +109,7 @@ public class Welcome {
         // System.out.println("이름 " + person.getName() + " 연락처 " + person.getPhone());
         System.out.println("이름 " + mUser.getName() + "   연락처 " + mUser.getPhone());
     }
-
+// 장바구니 상품 목록 보기
     public static void menuCartItemList() {
         System.out.println("장바구니 상품 목록 :");
         System.out.println("---------------------------------------");
@@ -123,11 +122,11 @@ public class Welcome {
         }
         System.out.println("---------------------------------------");
     }
-
+// 장바구니 비우기
     public static void menuCartClear() {
         System.out.println("장바구니 비우기");
     }
-
+// 바구니에 항목 추가하기
     public static void menuCartAddItem(String[][] book) {
         // System.out.println("장바구니에 항목 추가하기 : ");
 
@@ -173,19 +172,19 @@ public class Welcome {
 
         }
     }
-
+// 장바구니의 항목 수량 줄이기
     public static void menuCartRemoveItemCount() {
         System.out.println("5. 장바구니의 항목 수량 줄이기");
     }
-
+// 장바구니의 항목 삭제하기
     public static void menuCartRemoveItem() {
         System.out.println("6. 장바구니의 항목 삭제하기");
     }
-
+// 영수증 표시하기
     public static void menuCartBill() {
         System.out.println("7. 영수증 표시하기");
     }
-
+// 종료
     public static void menuExit() {
         System.out.println("8. 종료");
     }
