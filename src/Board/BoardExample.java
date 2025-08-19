@@ -93,7 +93,6 @@ public class BoardExample {
         for (Board b : boards) {
             if (b.getBno() == bno) {
                 java.text.SimpleDateFormat sdf = new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss z");
-                sdf.setTimeZone(TimeZone.getTimeZone("Asia/Seoul"));
                 System.out.println("번호: " + b.getBno());
                 System.out.println("작성자: " + b.getBWriter());
                 System.out.println("날짜: " + sdf.format(b.getBDate()));
