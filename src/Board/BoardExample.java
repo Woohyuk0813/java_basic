@@ -3,7 +3,6 @@ package Board;
 import java.util.Date;
 import java.util.Scanner;
 import java.util.ArrayList;
-import java.util.TimeZone;
 
 public class BoardExample {
     static Scanner sc = new Scanner(System.in);
@@ -19,7 +18,7 @@ public class BoardExample {
         String underbar = "---------------------------------------------";
         String header = "no         writer       date      title        ";
         String menubar = """
-            메인 메뉴 : 1.Create | 2. Read | 3. Clear | 4. Exit 
+            메인 메뉴 : 1.Create | 2. Read | 3. Clear | 4. Exit
             """;
         boolean flag = true;
         while (flag) {
