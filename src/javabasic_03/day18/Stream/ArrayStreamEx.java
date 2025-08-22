@@ -1,7 +1,6 @@
-package javabasic_03.Stream;
+package javabasic_03.day18.Stream;
 
 import java.util.Arrays;
-import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class ArrayStreamEx {

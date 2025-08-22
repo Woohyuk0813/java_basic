@@ -1,7 +1,6 @@
-package javabasic_03.Stream;
+package javabasic_03.day18.Stream;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.Getter;
 
 @Getter

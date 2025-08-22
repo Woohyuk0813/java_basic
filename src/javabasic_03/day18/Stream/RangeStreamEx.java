@@ -1,4 +1,4 @@
-package javabasic_03.Stream;
+package javabasic_03.day18.Stream;
 
 import java.util.stream.IntStream;
 

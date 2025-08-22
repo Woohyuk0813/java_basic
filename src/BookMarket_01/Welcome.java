@@ -9,7 +9,7 @@ public class Welcome {
     static final int NUM_ITEM = 7; // 1권 당 세부정보
     static CartItem[] mCartItem = new CartItem[NUM_BOOK]; // 장바구니
     static int mCartCount = 0; // 장바구니에 담긴 책 수 체크
-    static User mUser; // 사용자 정보 저장소
+    static User User; // 사용자 정보 저장소
 
     public static void main(String[] args) {
         String[][] mBook = new String[NUM_BOOK][NUM_ITEM];
@@ -21,7 +21,7 @@ public class Welcome {
         System.out.print("연락처를 입력하세요 : ");
         int userMobile = input.nextInt();
 
-        mUser = new User(userName, userMobile);
+        User = new User(userName, userMobile);
 
         String greeting = "Welcome to Shopping Mall";
         String tagline = "Welcome to Book Market!";
@@ -89,7 +89,7 @@ public class Welcome {
     // 고객정보 확인하기
     public static void menuGuestInfo(String name, int mobile) {
         System.out.println("현재 고객 정보 : ");
-        System.out.println("이름 : " + mUser.getName() + "   연락처 : " + mUser.getPhone());
+        System.out.println("이름 : " + User.getName() + "   연락처 : " + User.getPhone());
     }
 
     // 장바구니 상품 목록 보기
@@ -243,7 +243,7 @@ public class Welcome {
 
         System.out.println();
         System.out.println("---------------영수증-----------------");
-        System.out.println("고객명 : " + mUser.getName() + "\t\t연락처 : " + mUser.getPhone());
+        System.out.println("고객명 : " + User.getName() + "\t\t연락처 : " + User.getPhone());
         System.out.println("발송일 : " + strDate);
         System.out.println("---------------------------------------------");
         System.out.println("    도서ID \t|     수량 \t|      합계");
@@ -317,7 +317,7 @@ public class Welcome {
         System.out.print("비밀번호 : ");
         String adminPW = input.next();
 
-        Admin admin = new Admin(mUser.getName(), mUser.getPhone());
+        Admin admin = new Admin(User.getName(), User.getPhone());
         if (adminId.equals(admin.getId()) && adminPW.equals(admin.getPassword())) {
             System.out.println("이름 " + admin.getName() + "   연락처 " + admin.getPhone());
             System.out.println("아이디 " + admin.getId() + "   비밀번호 " + admin.getPassword());
