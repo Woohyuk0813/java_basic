@@ -1,5 +1,6 @@
 package javabasic_03.day20.test;
-
+// 문제 5: 바이트 단위 파일 읽기
+//        byte_output.txt 파일을 읽어 화면에 출력하세요.
 import java.io.FileInputStream;
 import java.io.IOException;
 
