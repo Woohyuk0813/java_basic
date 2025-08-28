@@ -7,7 +7,7 @@ public class ClientSocketEx01 {
     public static void main(String[] args) {
     // Socket 생성과 동시에 localhost 또는 IP의 Port의 연결 요청
         try {
-            Socket socket = new Socket("localhost", 50001);
+            Socket socket = new Socket("192.168.50.182", 50001);
             System.out.println("Connected to server 성공!");
             
             socket.close();
