@@ -15,7 +15,7 @@ public class Server {
     // 현재 접속한 사람들의 닉네임을 저장하는 리스트
     private static List<String> nicknames = Collections.synchronizedList(new ArrayList<>());
 
-    // 각 클라이언트에게 메시지를 보내는 PrintWriter를 저장하는 리스트
+    // 각 클라이언트에게 메시지를 보내는 PrintWriter 저장하는 리스트
     private static List<PrintWriter> writers = Collections.synchronizedList(new ArrayList<>());
 
     public static void main(String[] args) {
