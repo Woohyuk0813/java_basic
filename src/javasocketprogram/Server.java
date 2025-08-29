@@ -15,6 +15,9 @@ public class Server {
     // 현재 접속한 사람들의 닉네임을 저장하는 리스트
     private static List<String> nicknames = Collections.synchronizedList(new ArrayList<>());
 
+    // 각 클라이언트에게 메시지를 보내는 PrintWriter를 저장하는 리스트
+    private static List<PrintWriter> writers = Collections.synchronizedList(new ArrayList<>());
+
     public static void main(String[] args) {
         startServer();
 
@@ -77,6 +80,7 @@ public class Server {
     static class ChatThread extends Thread {
         Socket socket;
         String nickname;
+
         // 생성자 (클라이언트 소켓을 받아옴)
         ChatThread(Socket socket) {
             this.socket = socket;
@@ -88,8 +92,8 @@ public class Server {
                 // 입력 스트림: 클라이언트가 보낸 메시지를 읽음
                 BufferedReader in = new BufferedReader(
                         new InputStreamReader(socket.getInputStream(), "MS949"));
-                PrintWriter out = new PrintWriter(
-                        new OutputStreamWriter(socket.getOutputStream(), "MS949"), true);
+                PrintWriter out = new PrintWriter(new OutputStreamWriter(socket.getOutputStream(), "MS949"), true);
+                writers.add(out);
 
 
                 out.println("닉네임 입력 (공백/중복 불가):");
@@ -113,9 +117,13 @@ public class Server {
                 String message;
                 while ((message = in.readLine()) != null) {
                     // "/quit" 입력하면 종료
-                    if (message.equals("/quit")) break;
+                    if (message.equals("/quit")) {
+                        out.println("채팅을 종료합니다."); // 클라이언트에게 종료 메시지 전송
+                        break; // while 루프 종료
+                    }
 
-                        // "/who" 입력하면 현재 접속자 명단 보여줌 (자기 자신에게만)
+
+                    // "/who" 입력하면 현재 접속자 명단 보여줌 (자기 자신에게만)
                     else if (message.equals("/who"))
                         //String.join = 문자열 여러 개를 하나로 합치면서 중간에 원하는 구분자를 넣는 기능
                         out.println("현재 접속자: " + String.join(", ", nicknames));
@@ -144,17 +152,9 @@ public class Server {
 
         // 전체 클라이언트에게 메시지 보내기
         private void broadcast(String msg) {
-            synchronized (list) { // 여러 스레드가 동시에 list에 접근하지 못하게 잠금
-                for (Socket s : list) {
-                    try {
-                        // 클라이언트에게 메시지를 보낼 출력 스트림 생성
-                        PrintWriter pw = new PrintWriter(
-                                new OutputStreamWriter(s.getOutputStream(), "MS949"), true);
-                        pw.println(msg); // 메시지 전송
-                    } catch (IOException e) {
-                        // 만약 전송에 실패하면 해당 클라이언트 제거
-                        list.remove(s);
-                    }
+            synchronized (writers) { // 여러 스레드가 동시에 list에 접근하지 못하게 잠금
+                for (PrintWriter writer : writers) {
+                    writer.println(msg);
                 }
             }
         }
