@@ -12,7 +12,7 @@ public class SortedStudent {
         try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream("C:/Temp/student.dat"))) {
             studentInfo = (HashMap<String, Student>) ois.readObject();
         } catch (Exception e) {
-            System.out.println("[오류] 파일 로드 실패");
+            System.out.println("파일 로드 실패");
             studentInfo = new HashMap<>();
         }
     }
@@ -36,9 +36,9 @@ public class SortedStudent {
     private void outputObject() {
         try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("C:/Temp/orderByAvg.dat"))) {
             oos.writeObject(sortedSet);
-            System.out.println("[완료] 정렬된 결과를 파일로 저장했습니다.");
+            System.out.println("                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   정렬된 결과를 파일로 저장했습니다.");
         } catch (IOException e) {
-            System.out.println("[오류] 파일 저장 실패");
+            System.out.println("파일 저장 실패");
         }
     }
 

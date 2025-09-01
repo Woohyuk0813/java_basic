@@ -8,18 +8,18 @@ public class StudentOutput {
     private HashMap<String, Student> studentInfo;
     private List<Student> datas;
 
-    private void loadObjectFromFile() {
+    private void loadStudentData() {
         try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream("C:/Temp/student.dat"))) {
             studentInfo = (HashMap<String, Student>) ois.readObject();
         } catch (Exception e) {
-            System.out.println("[오류] 파일 로드 실패");
+            System.out.println("파일 로드 실패");
             studentInfo = new HashMap<>();
         }
     }
 
-    private void rearrangeData() {
+    private void sortStudentData() {
         datas = new ArrayList<>(studentInfo.values());
-        datas.sort(Comparator.comparingDouble(Student::getAverage)); // 평균 오름차순
+        datas.sort(Comparator.comparingDouble(Student::getAverage));
     }
 
     private void printInfo() {
@@ -35,8 +35,8 @@ public class StudentOutput {
     }
 
     public void run() {
-        loadObjectFromFile();
-        rearrangeData();
+        loadStudentData();
+        sortStudentData();
         printInfo();
     }
 
