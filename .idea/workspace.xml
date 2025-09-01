@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="98028474-85f4-43a5-a525-876d2d627a53" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/java_basic_9" beforeDir="false" afterPath="$PROJECT_DIR$/java_basic_9" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/java_basic_9" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Woohyuk0813&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/thatzcool/java_basic_9.git&quot;,
+    &quot;accountId&quot;: &quot;5ef119f5-d798-4c16-9055-4cf95b913011&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="31GW5o2unUJptdETmTIhtYopQlk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Study/java_basic",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "라이브러리",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "settings.sync",
+    "vue.rearranger.settings.migration": "true",
+    "데이터베이스 스크립트.console.sql.executor": "Run",
+    "애플리케이션.ArrayStreamEx.executor": "Run",
+    "애플리케이션.BoardExample.executor": "Run",
+    "애플리케이션.BoardMain.executor": "Run",
+    "애플리케이션.ChatServer.executor": "Run",
+    "애플리케이션.CirclePerimeter.executor": "Run",
+    "애플리케이션.Client.executor": "Run",
+    "애플리케이션.ClientSocketEx01.executor": "Run",
+    "애플리케이션.CollectExample.executor": "Run",
+    "애플리케이션.CopyEx.executor": "Run",
+    "애플리케이션.CreateJsonEx.executor": "Run",
+    "애플리케이션.DataInputOutputEx.executor": "Run",
+    "애플리케이션.Example.executor": "Run",
+    "애플리케이션.FilterTest01.executor": "Run",
+    "애플리케이션.FilteringEx.executor": "Run",
+    "애플리케이션.HashSetExample.executor": "Run",
+    "애플리케이션.InetAddressEx.executor": "Run",
+    "애플리케이션.Main.executor": "Run",
+    "애플리케이션.Main2.executor": "Run",
+    "애플리케이션.MapExample.executor": "Run",
+    "애플리케이션.MappingEx01.executor": "Run",
+    "애플리케이션.ObjectInOutEc.executor": "Run",
+    "애플리케이션.OptionalEx01.executor": "Run",
+    "애플리케이션.OptionalEx02.executor": "Run",
+    "애플리케이션.ParseJsonEx.executor": "Run",
+    "애플리케이션.Prob1.executor": "Run",
+    "애플리케이션.Prob12.executor": "Run",
+    "애플리케이션.Prob13.executor": "Run",
+    "애플리케이션.Prob16.executor": "Run",
+    "애플리케이션.Prob2.executor": "Run",
+    "애플리케이션.Prob3.executor": "Run",
+    "애플리케이션.Prob4.executor": "Run",
+    "애플리케이션.Prob5.executor": "Run",
+    "애플리케이션.Prob6.executor": "Run",
+    "애플리케이션.Prob7.executor": "Run",
+    "애플리케이션.Prob9.executor": "Run",
+    "애플리케이션.ProductMain.executor": "Run",
+    "애플리케이션.RangeStreamEx.executor": "Run",
+    "애플리케이션.ReadEx01.executor": "Run",
+    "애플리케이션.ReadEx02.executor": "Run",
+    "애플리케이션.ReaderEx.executor": "Run",
+    "애플리케이션.Serializable.executor": "Run",
+    "애플리케이션.SerializableEx.executor": "Run",
+    "애플리케이션.Server.executor": "Run",
+    "애플리케이션.ServerSocketEx01.executor": "Run",
+    "애플리케이션.SortedEx.executor": "Run",
+    "애플리케이션.SortedTest.executor": "Run",
+    "애플리케이션.SteamFileEx.executor": "Run",
+    "애플리케이션.Test1.executor": "Run",
+    "애플리케이션.ThreadEx01.executor": "Run",
+    "애플리케이션.ThreadEx02.executor": "Run",
+    "애플리케이션.TreeSetExample.executor": "Run",
+    "애플리케이션.Welcome.executor": "Run",
+    "애플리케이션.WriterEx.executor": "Run",
+    "애플리케이션.WriterEx01.executor": "Run",
+    "애플리케이션.WriterEx03.executor": "Run",
+    "애플리케이션.aaaaa.executor": "Run",
+    "애플리케이션.client.executor": "Run"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
+    "RunConfigurationTargetLRU": [
+      "10dfdc15-eb9e-405a-97c5-6bec15e6a031"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Board" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Study\java_basic\src\javabasic_03\day22\eco" />
+      <recent name="C:\Study\java_basic\src\javabasic_03\day19" />
+      <recent name="C:\Study\java_basic\src\javabasic_03\day18\FileData" />
+      <recent name="C:\Study\java_basic\src\StreamTest\a" />
+      <recent name="C:\Study\java_basic\src\javabasic_03\Stream\FileData" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="javabasic_03.day20.test" />
+      <recent name="javabasic_03.day20.inputstream" />
+      <recent name="javabasic_03.day20" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="java_advence" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="java_advence" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26574.91" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26574.91" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="98028474-85f4-43a5-a525-876d2d627a53" name="변경" comment="" />
+      <created>1755150846892</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755150846892</updated>
+      <workItem from="1755150848228" duration="237000" />
+      <workItem from="1755151109228" duration="2301000" />
+      <workItem from="1755155237048" duration="5345000" />
+      <workItem from="1755475415772" duration="20081000" />
+      <workItem from="1755514332646" duration="12000" />
+      <workItem from="1755514356826" duration="598000" />
+      <workItem from="1755561808322" duration="25307000" />
+      <workItem from="1755648094675" duration="25928000" />
+      <workItem from="1755734377156" duration="9644000" />
+      <workItem from="1755755175450" duration="14349000" />
+      <workItem from="1755821178662" duration="8385000" />
+      <workItem from="1755830517810" duration="2228000" />
+      <workItem from="1755832842340" duration="1754000" />
+      <workItem from="1755834639797" duration="10567000" />
+      <workItem from="1756080310694" duration="11779000" />
+      <workItem from="1756096456532" duration="10429000" />
+      <workItem from="1756107698292" duration="2660000" />
+      <workItem from="1756167482532" duration="19479000" />
+      <workItem from="1756192814959" duration="1518000" />
+      <workItem from="1756198370821" duration="5904000" />
+      <workItem from="1756252859434" duration="6751000" />
+      <workItem from="1756263413220" duration="154000" />
+      <workItem from="1756263585702" duration="7446000" />
+      <workItem from="1756279511899" duration="4343000" />
+      <workItem from="1756339445793" duration="25863000" />
+      <workItem from="1756426080027" duration="3839000" />
+      <workItem from="1756430241914" duration="158000" />
+      <workItem from="1756430420033" duration="22378000" />
+      <workItem from="1756685126099" duration="41000" />
+      <workItem from="1756685207472" duration="183000" />
+      <workItem from="1756685402244" duration="13000" />
+      <workItem from="1756685498736" duration="241000" />
+      <workItem from="1756686760295" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/javabasic_03/day14/aaaa/BoardListMain.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
