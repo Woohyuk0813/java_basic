@@ -19,14 +19,12 @@ public class Student implements Serializable {
     private double average;
     private String grade;
 
-    // 생성 후 계산
     public Student(String name, List<Integer> record) {
         this.name = name;
         this.record = record;
         calculate();
     }
 
-    // 총점, 평균, 학점 계산
     public void calculate() {
         total = record.stream().mapToInt(Integer::intValue).sum();
         average = total / (double) record.size();
