@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="98028474-85f4-43a5-a525-876d2d627a53" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/student/StudentInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/StudentInput.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/student/StudentOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student/StudentOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/SortedStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/StudentInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/StudentOutput.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,17 +35,17 @@
     &quot;assignee&quot;: &quot;Woohyuk0813&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Woohyuk0813/java_basic.git&quot;,
-    &quot;accountId&quot;: &quot;5ef119f5-d798-4c16-9055-4cf95b913011&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Woohyuk0813/java_basic.git",
+    "accountId": "d1ab892f-d501-457f-b8bb-9fee0c7de88c"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="31GW5o2unUJptdETmTIhtYopQlk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -180,8 +181,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26574.91" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26574.91" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
       </set>
     </attachedChunks>
   </component>
