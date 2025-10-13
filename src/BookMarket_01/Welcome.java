@@ -34,6 +34,7 @@ public class Welcome {
 
             menuIntroduction();
 
+
             System.out.print("메뉴 번호를 선택해주세요 ");
             int n = input.nextInt();
 
