@@ -138,7 +138,6 @@ public class Welcome {
 
         while (!quit) {
 
-
             System.out.print("장바구니에 추가할 도서의 ID를 입력하세요 :");
 
             Scanner input = new Scanner(System.in);
