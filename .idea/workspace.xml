@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98028474-85f4-43a5-a525-876d2d627a53" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BookMarket_01/Welcome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BookMarket_01/Welcome.java" afterDir="false" />
     </list>
@@ -33,12 +33,12 @@
     &quot;assignee&quot;: &quot;Woohyuk0813&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Woohyuk0813/java_basic.git",
-    "accountId": "9f090a8b-0d7a-4b39-ad06-62d1aa881404"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Woohyuk0813/java_basic.git&quot;,
+    &quot;accountId&quot;: &quot;9f090a8b-0d7a-4b39-ad06-62d1aa881404&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -177,6 +177,13 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.28141.18" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
@@ -233,6 +240,7 @@
       <workItem from="1757501625378" duration="672000" />
       <workItem from="1757513979030" duration="601000" />
       <workItem from="1758459629240" duration="1241000" />
+      <workItem from="1761036497319" duration="45000" />
     </task>
     <servers />
   </component>
