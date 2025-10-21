@@ -153,7 +153,6 @@ public class Welcome {
                     break;
                 }
             }
-
             if (flag) {
                 System.out.println("장바구니에 추가하겠습니까? Y | N ");
                 str = input.nextLine();
